@@ -17,7 +17,7 @@ function App() {
 
   const Login = () => {
     const options = {
-      url: "http://localhost:3000/login",
+      url: "https://backend01-azure.vercel.app/login",
       method: "POST",
       headers: {
         "Accept": "application/json",
